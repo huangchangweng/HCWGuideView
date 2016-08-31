@@ -6,9 +6,10 @@ App首次启动或更新版本用到的引导页
 
 ## 使用方法
 在AppDelegate中写
-1.默认样式
+### 1.默认样式
     [HCWGuideView showGuideViewWithImages:@[@"guide_1", @"guide_2", @"guide_3"]];
-2.自定义样式
+    
+### 2.自定义样式
     HCWGuideView *guideView = [HCWGuideView showGuideViewWithImages:@[@"guide_1", @"guide_2", @"guide_3"]];
     guideView.enterButtonHidden = NO;
     guideView.pageControlHidden = NO;
