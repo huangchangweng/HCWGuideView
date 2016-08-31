@@ -6,8 +6,8 @@ App首次启动或更新版本用到的引导页
 
 ## 使用方法
 在AppDelegate中写
-###
-[HCWGuideView showGuideViewWithImages:@[@"guide_1", @"guide_2", @"guide_3"]];
+
+      [HCWGuideView showGuideViewWithImages:@[@"guide_1", @"guide_2", @"guide_3"]];
 
 作者：HCW
 
